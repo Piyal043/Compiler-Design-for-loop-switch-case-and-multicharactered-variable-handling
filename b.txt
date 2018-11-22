@@ -1,0 +1,8 @@
+v_int main : lfb rfb
+lsb
+switch lfb a rfb
+lsb
+case 1 :: a
+rsb
+	
+rsb
