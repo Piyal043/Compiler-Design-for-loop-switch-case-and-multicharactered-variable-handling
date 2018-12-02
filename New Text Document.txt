@@ -1,0 +1,1 @@
+| fun VAR lfb cdeclaration rfb lsb cstatement rsb { printf("\n succeessful compilation of  a function.\n");}

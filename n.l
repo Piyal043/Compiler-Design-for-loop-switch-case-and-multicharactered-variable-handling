@@ -36,11 +36,19 @@
 "as"	{ return as;  }
 "bt"	{ return bt; }
 "st"	{ return st; }
+"eq"     { return eq; }
+"neq"     { return neq; }
+"beq"     { return beq; }
+"seq"     { return seq; }
 "ploop"  {return ploop;}
 "switch" {return Switch;}
 "case" {return Case;}
 "put" {return put;}
-[a-z]+	{
+"puts" { return prints;}
+"hoi"		{ return hoi;		}
+"othoba"		{ return othoba;}
+"nahoi"				{ return nahoi; }
+[a-z|_]+	{
 		//yylval = *yytext - 'a';
 		//yylval->stringvalue=strdup(yytext);
 		//strcpy(yylval.stringvalue,yytext);
@@ -49,13 +57,8 @@
 		return	VAR;
 	}
 
-
-
-
-"@if"		{ return If;		}
-"@else"		{ return Else;		}
-
 "v_int main :"	{ return Main; }
+"func:" {return fun;}
 
 [ \t\n]*	;
 

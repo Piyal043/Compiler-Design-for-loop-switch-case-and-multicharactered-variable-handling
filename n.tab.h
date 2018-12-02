@@ -68,7 +68,16 @@
      put = 284,
      num = 285,
      VAR = 286,
-     IfX = 287
+     hoi = 287,
+     othoba = 288,
+     nahoi = 289,
+     eq = 290,
+     neq = 291,
+     beq = 292,
+     seq = 293,
+     prints = 294,
+     fun = 295,
+     IfX = 296
    };
 #endif
 

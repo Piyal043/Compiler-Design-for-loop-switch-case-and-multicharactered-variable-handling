@@ -1,18 +1,46 @@
+
 v_int main : lfb rfb
 lsb
+
+
+
 	v_int ddd as 11 comma a as 12 fs
 	b as c fs
 	v_int ddd fs
+	
+	
+	
 ploop lfb a as 1 comma 10 rfb 
 lsb 
 put lfb a rfb
 rsb 
+
+
 a as 2
+
+
 switch lfb a rfb
 lsb
 case 1 :: a
 case 2 :: put aba
 case 3 :: a
 rsb
+
+
+
+hoi lfb a beq 3 rfb  lsb a  rsb
+nahoi lsb 345 rsb
+ 
+
+
+
+
+func: lfb v_int assd v_double sdf  rfb
+lsb
+puts lfb  inside_function rfb
+rsb
 	
 rsb
+
+
+
